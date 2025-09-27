@@ -1,0 +1,44 @@
+Design an ER diagram of a banking system
+
+Requirement clarification
+1. Banking System -> branches, name -> unique
+2. Bank -> Customers
+3. Customers -> Accounts & take loan
+4. Customer connected with some banker
+5. Bank has employees
+6. Accounts -> Saving a/c , Current a/c, loan originated by branch, loan >=1 customers, payment schedules
+
+
+
+Step-1: Identify Entity Sets:
+1. branch
+2. Customer
+3. Employee
+4. Saving a/c
+5. Current a/c
+6. Loan
+7. Payment (Loan)
+
+Saving account and current account are types of account
+
+Step-2: Attributes:
+1. Branch -> name(PK), city, assets, liabilities
+2. Customer -> customer_id(PK), name, address(composite), contact_no(multivalued), dob, age(derived)
+3. Employee -> employee_id(PK), name, contact_no, dependant_name(multivalued), years_of_service(derived), start_date
+4. Saving Account -> account_number(PK), balance, interest_rate, daily_withdrawal_limit
+5. Current Account -> account_number(PK), balance, per_transaction_charges, overdraft_amount
+7. Loan -> loan_number(PK), overdraft_amount
+8. Weak Entity Payment -> payment_number(PK), date, amount
+Generalised entity Account -> account_number, balance . This will have child savings_account and current_account
+
+Step-3: Identify Relationship
+
+1. Customer (borrow) Loan (m : n) (Total Participation)
+2. Loan (originated by) Branch (n : 1) (Total Participation)
+3. Loan (loan payment) Payment (1 : n) (Weak relationship, Total Participation)
+4. Customer (deposit in) Account (m : n) ()
+5. Cusomter (banker) Employee (n : 1)
+6. Employee (managed by) Employee (n : 1)
+
+
+-> Find any software to draw ER diagram and draw the ER diagram here in another file

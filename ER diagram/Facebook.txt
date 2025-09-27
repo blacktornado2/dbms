@@ -1,0 +1,31 @@
+Design an ER diagram of Facebook
+
+
+Requirement Clarification
+1. User -> Profile, Friends
+2. User can Post
+3. Post -> text, images, videos
+4. User can like, comment on Post 
+
+
+Step-1: Identify Entity Sets
+1. user_profile
+2. post
+3. post_comment
+4. post_like
+
+
+Step-2: Attributes and types
+1. user_profile -> name(composite), username(PK), email(multivalued), password, contact_no(multivalued), dob, age(derived)
+2. post -> post_id(PK), text_content, images(multivalued), videos(multivalued), created_at, modified_at
+3. post_comment -> comment_id(PK), text_content, timestamp
+4. post_like -> like_id(PK), timestamp
+
+
+Step-3: Relationship and constraints
+1. user_profile  friendship  user_profile(m : n)
+2. user_profile  posts  user_post(1 : n) Total Participation
+3. user_profile  can  post_like(1 : n) Total Participation
+4. user_profile  comments  post_comment (1 : n) Total Participation
+5. post  has  post_comments (1 : n) Total Participation
+6. post  has  post_like  (1 : n) Total Participation

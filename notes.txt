@@ -1,0 +1,55 @@
+DBMS:
+1. Notes PDF
+2. Design ER Diagram for a given problem
+
+SQL:
+1. Quick Reference: https://www.w3schools.com/sql/
+2. Practice - 1: https://www.sql-practice.com/
+3. Practice - 2: https://www.leetcode.com/problemset
+4. Practice Intermediate-Hard Interview Questions
+
+Problems:
+1. What is DBMS? Mention advantages : DONE
+2. What is Database? : DONE
+3. What is a database system? DONE
+4. What is RDBMS ? Properties.
+5. Types of database languages: DDL, DML, DQL, DCL: DONE
+6. ACID properties (VVVVV IMP)
+7. Difference between vertical and horizontal scaling : DONE
+8. What is sharding?
+9. Keys in DBMS : DONE
+10. Types of relationship : DONE
+11. Data abstraction in DBMS, three levels of it
+12. Indexing in DBMS
+13. What is DDL (Data Definition Language): DONE
+14. What is DML (Data Manipulation Language): DONE
+15. What is normalization ? Types of them ..
+16. What is denormalization ?
+17. What is functional dependency ?
+18. E-R Model? : DONE
+19. Conflict Serializability in DBMS ..
+20. Explain Normal forms in DBMS
+21. What is CCP ? (Concurrency Control Protocols)
+22. Entity, Entity Type, Entity Set, Weak Entity Set..
+23. What are SQL commands ? Types of them..
+24. Nested Queries in SQL?
+25. What is JOIN? Explain types of JOINs.
+26. Inner and Outer Join.
+28. Diff between 2 tier and 3 tier architecture: DONE
+29. Diff between TRUNCATE and DELETE command.
+30. Difference between Intension and Extension in a Database
+31. Difference between share lock and exclusive lock, definition of lock
+
+
+How to design ER diagram:
+1. Identify Core Entities
+2. Identify attributes and their types
+3. Identify relationship and constraints
+   - Relationships: e.g. "has", "teaches", "studies", "sells"
+   - Constraints:
+    (a) Cardinality Mapping
+    (b) Participation
+
+
+Requirement engineering
+
