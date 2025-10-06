@@ -7,14 +7,17 @@ SQL:
 2. Practice - 1: https://www.sql-practice.com/
 3. Practice - 2: https://www.leetcode.com/problemset
 4. Practice Intermediate-Hard Interview Questions
+5. SQL diagram: https://bytebytego.com/guides/what-is-the-best-way-to-learn-sql/
+6. SQL query logical order: https://bytebytego.com/guides/visualizing-a-sql-query/
+7. Visualise JOINS: https://joins.spathon.com/
 
 Problems:
 1. What is DBMS? Mention advantages : DONE
 2. What is Database? : DONE
-3. What is a database system? DONE
-4. What is RDBMS ? Properties.
+3. What is a database system? : DONE
+4. What is RDBMS ? Properties. : DONE
 5. Types of database languages: DDL, DML, DQL, DCL: DONE
-6. ACID properties (VVVVV IMP)
+6. ACID properties (VVVVV IMP): DONE
 7. Difference between vertical and horizontal scaling : DONE
 8. What is sharding?
 9. Keys in DBMS : DONE
@@ -27,18 +30,23 @@ Problems:
 16. What is denormalization ?
 17. What is functional dependency ?
 18. E-R Model? : DONE
-19. Conflict Serializability in DBMS ..
-20. Explain Normal forms in DBMS
-21. What is CCP ? (Concurrency Control Protocols)
+19. Conflict Serializability in DBMS:
+20. Explain Normal forms in DBMS:
+21. What is CCP? (Concurrency Control Protocols)
 22. Entity, Entity Type, Entity Set, Weak Entity Set..
-23. What are SQL commands ? Types of them..
-24. Nested Queries in SQL?
-25. What is JOIN? Explain types of JOINs.
-26. Inner and Outer Join.
+23. What are SQL commands? Types of them..
+24. Nested Queries in SQL:
+25. What is JOIN? Explain types of JOINs:
+26. Inner and Outer Join:
 28. Diff between 2 tier and 3 tier architecture: DONE
-29. Diff between TRUNCATE and DELETE command.
-30. Difference between Intension and Extension in a Database
-31. Difference between share lock and exclusive lock, definition of lock
+29. Diff between TRUNCATE and DELETE command:
+30. Difference between Intension and Extension in a Database:
+31. Difference between share lock and exclusive lock, definition of lock:
+32. Wall Ahead Logging:
+
+
+Commands:
+/usr/local/mysql/bin/mysql -u root -p : Enter MySQL from the CLI 
 
 
 How to design ER diagram:
